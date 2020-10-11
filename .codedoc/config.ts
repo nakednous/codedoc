@@ -12,5 +12,22 @@ export const config = /*#__PURE__*/configuration({
       base: 'Codedoc'                     // --> the base title of your doc pages
     }
   },
+
+  dest: {
+    html: 'dist',
+    assets: 'dist',
+    namespace: '/codedoc'
+  },
+
+  misc: {
+    github: {
+      user: 'nakednous',
+      repo: 'codedoc',
+      action: 'Star',
+      count: false,
+      large: true,
+      standardIcon: false,
+    }
+  },  
   
 });
